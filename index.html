@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <p id="paragraph">Paragraph</p>
+    <button id="jsStyles" onclick="jsStyle()">style</button>
+
+    <h1>Remove items from a dropdown</h1>
+    <select name="dropdown" id="colorSelect">
+      <option value="red">red</option>
+      <option value="green">green</option>
+      <option value="white">white</option>
+      <option value="black">black</option>
+    </select>
+    <input
+      type="button"
+      value="Delete selected color"
+      onclick="removeSelectedColor()"
+    />
+    <script src="./index.js"></script>
+  </body>
+</html>
